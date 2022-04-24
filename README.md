@@ -1,1 +1,2 @@
-# This repository is for the "maths stuff" that I have coded
+# callfunctions.py runs the functions defined in other files such as lnx.py
+# a higher maxn gives greater accuracy on approxamations 
