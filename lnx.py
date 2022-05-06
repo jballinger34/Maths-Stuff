@@ -1,3 +1,6 @@
+#needs work
+
+
 def coefficient(maxn):
     coefficientlist = []
     for n in range(1,maxn+1):
@@ -33,8 +36,11 @@ def ln(x,maxn):
     for i in fraction:
         runningsum = i + runningsum
     return runningsum
-    
-print(ln(1, 100))
+
+if __name__=="__main__":
+    x = 2
+    maxn = 10
+    print(ln(x,maxn))
 '''
 
 ln(1+x) = sum from n=1 -> n= infinity of: ((-1)^n+1)(x^n)/n
