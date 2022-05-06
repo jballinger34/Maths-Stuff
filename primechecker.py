@@ -2,8 +2,6 @@ from math import sqrt
 
 
 def checkprime(num):
-    
-
     max = int(sqrt(num) + 1)
     prime = True
     

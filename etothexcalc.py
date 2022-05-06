@@ -27,7 +27,10 @@ def etothex(x, maxn):
     return ans 
 
 
-
+if __name__ =="__main__":
+    x = 1
+    maxn = 10
+    print(etothex(x,maxn))
 
 
 

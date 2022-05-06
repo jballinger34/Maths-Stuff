@@ -36,7 +36,10 @@ def sin(x,maxn):
         runningsum = i + runningsum
     return runningsum
     
-
+if __name__ == "__main__":
+    x= 3.14
+    maxn = 10
+    print(sin(x,maxn))
 '''
 the infintite sum for sin(x) = (-1)^n   * (x^2n+1)/(2n+1)!
 '''

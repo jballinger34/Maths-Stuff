@@ -36,7 +36,7 @@ def cosine(x, maxn):
         runningsum = i + runningsum
     return runningsum
     
-
-'''
-the infintite sum for cos(x) = (-1)^n   * (x^2n)/(2n)!
-'''
+if __name__ == "__main__":
+    x = 0
+    maxn = 10
+    print(cosine(x,maxn))

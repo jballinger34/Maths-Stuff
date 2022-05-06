@@ -1,3 +1,4 @@
+from pip import main
 from factorialcalc import factorial
 
 #n and r must be positive integers
@@ -10,6 +11,7 @@ def nCr(n,r):
     denominator = factorial(r)*factorial(n-r)
     return numerator/denominator
 
-print(nCr(n,r))
+if __name__ == "__main__":
+    print(nCr(n,r))
 
 

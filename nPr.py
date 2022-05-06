@@ -8,4 +8,5 @@ def nPr(n,r):
     denominator = factorial(n-r)
     return numerator/denominator
 
-print(nPr(n,r))
+if __name__ == "__main__":
+    print(nPr(n,r))
